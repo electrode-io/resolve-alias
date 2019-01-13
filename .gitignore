@@ -1,0 +1,6 @@
+/node_modules
+coverage
+.idea
+*-lock.*
+.nyc_output
+.vscode

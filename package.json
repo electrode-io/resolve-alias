@@ -1,0 +1,57 @@
+{
+  "name": "resolve-alias",
+  "version": "0.0.1",
+  "description": "set virtual module aliases for resolve and require",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "clap test",
+    "coverage": "clap check"
+  },
+  "keywords": [
+    "virtual",
+    "module",
+    "modules",
+    "alias",
+    "aliases",
+    "require",
+    "resolve"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "Joel Chen",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchip/resolve-alias.git"
+  },
+  "devDependencies": {
+    "electrode-archetype-njs-module-dev": "^3.0.0"
+  },
+  "nyc": {
+    "all": true,
+    "reporter": [
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "exclude": [
+      "coverage",
+      "*clap.js",
+      "gulpfile.js",
+      "dist",
+      "test"
+    ],
+    "check-coverage": true,
+    "statements": 100,
+    "branches": 100,
+    "functions": 100,
+    "lines": 100,
+    "cache": true
+  },
+  "prettier": {
+    "printWidth": 100,
+    "arrowParens": "avoid",
+    "trailingComma": "none"
+  }
+}
