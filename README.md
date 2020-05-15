@@ -19,7 +19,7 @@ By registering an alias `$lib` that points to the lib directory.
 For example, you might do that in `lib/index.js`:
 
 ```js
-const resolveAlias = require("resolve-alias");
+const resolveAlias = require("@xarc/resolve-alias");
 resolveAlias.add("$lib", __dirname); // make $lib an alias that point to the lib directory
 ```
 
