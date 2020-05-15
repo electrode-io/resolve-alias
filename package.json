@@ -1,6 +1,6 @@
 {
   "name": "@xarc/resolve-alias",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "set virtual module aliases for resolve and require",
   "main": "lib/index.js",
   "scripts": {
